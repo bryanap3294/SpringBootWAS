@@ -57,6 +57,19 @@
 			<artifactId>jackson-databind</artifactId>
 		</dependency>
 		<!-- SWAGGER -->
+		<!-- SECURITY START -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<!-- SECURITY -END -->
+		<!-- JWT START -->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.7.0</version>
+		</dependency>
+		<!-- SECURITY END -->
 	</dependencies>
 
 	<build>
